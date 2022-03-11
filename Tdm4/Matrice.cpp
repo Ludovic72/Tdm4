@@ -6,7 +6,6 @@ Matrice::Matrice() {
 	this->m_y = 1;
 	this->m_tab = new int* [m_x];
 	*(this->m_tab) = new int[m_y];
-	 
 	for (int i = 0; i < m_x; i++) {
 		for (int k = 0; k < this->m_y; k++) {
 			this->m_tab[i][k] = 0;
@@ -160,7 +159,6 @@ int Matrice::egal(Matrice& m1) {
 int& Matrice::value(int x, int y) {
 	return this->m_tab[x][y];
 }
-
 
 void Matrice::multiplication(int nombre) {
 	for (int i = 0; i < this->m_x; i++) {

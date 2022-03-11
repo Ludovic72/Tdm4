@@ -40,9 +40,9 @@ public:
 	Matrice operator*(const int& m);
 
 	
-	~Matrice();
+	virtual ~Matrice();
 	
-private:
+protected:
 	int m_x;
 	int m_y;
 	int** m_tab;

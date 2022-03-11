@@ -139,11 +139,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Concert.cpp" />
+    <ClCompile Include="Match.cpp" />
     <ClCompile Include="Matrice.cpp" />
+    <ClCompile Include="MatriceC.cpp" />
+    <ClCompile Include="PieceTheatre.cpp" />
+    <ClCompile Include="Spectacle.cpp" />
     <ClCompile Include="TD4main.cpp" />
+    <ClCompile Include="TD5main1.cpp" />
+    <ClCompile Include="TD5main2.cpp" />
+    <ClCompile Include="Vecteur.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Concert.h" />
+    <ClInclude Include="LAD.h" />
+    <ClInclude Include="Match.h" />
     <ClInclude Include="Matrice.h" />
+    <ClInclude Include="MatriceC.h" />
+    <ClInclude Include="PieceTheatre.h" />
+    <ClInclude Include="Spectacle.h" />
+    <ClInclude Include="Vecteur.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
